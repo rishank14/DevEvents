@@ -3,8 +3,8 @@ export type EventItem = {
   title: string;
   slug: string;
   location: string;
-  date: string;
-  time: string;
+  date: string; // e.g., "2025-11-07"
+  time: string; // e.g., "09:00 AM"
 };
 
 export const events: EventItem[] = [
@@ -57,7 +57,7 @@ export const events: EventItem[] = [
     time: "10:00 AM",
   },
   {
-    image: "/images/event-full.png",
+    image: "/images/events-full.png",
     title: "Open Source Summit North America 2026",
     slug: "oss-na-2026",
     location: "Vancouver, Canada",
